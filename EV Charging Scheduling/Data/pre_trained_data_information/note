@@ -1,0 +1,8 @@
+数据集中有许多重复的内容，因此
+
+0. 记录初始轨迹，包含重复内容，格式为pickle，数据以 [charging station number,distance(e, c), relative ev number] 形式组织
+1. 记录初始轨迹，不含重复内容，格式为txt，数据以 [charging station number,distance(e, c), relative ev number] 形式组织,其
+   所有轨迹均存储在一个三维列表之中
+2. 保存所有轨迹（去重后）的平均排队时间列表
+3. 保存所有轨迹（去重后）的平均空闲时间列表
+4. 保存所有轨迹（去重后）的每小时服务电车数量列表
