@@ -3,7 +3,20 @@ This is an official implementation in Pytorch
 
 
 ## Abstract
-    Abstract — With the rapid development of electric vehicles (EVs) industry, EV charging service becomes more and more important. Especially, in the case of suddenly drop of air temperature or open holidays that large-scale EVs seeking for charging devices at a short time. In such scenario, inefficient EV charging scheduling service may lead to a bad service quality, for example, long queueing times for EVs and unreasonable idling time for charging devices. To deal with this issue, this paper propose a Deep-Q-Network (DQN) based two-stage scheduling method for the large-scale EVs charging service. Fine-grained states with two delicate neural networks are proposed to optimize the sequencing of EVs and charging station (CS) arrangement. Two efficient algorithms are presented to obtain the optimal EVs charging scheme with a large-scale EVs charging demand. Three case studies show the superiority of our proposal, in terms of a high service quality (minimized average queuing time of EVs and maximized charging performance at both EV and CS sides) and achieve greater scheduling efficiency. 
+    The surge charging demand of large-scale electric vehicles (EVs) in the rush hour
+or open holidays poses challenges to the EV charging management system. Unrea-
+sonable EV charging scheduling plan is definitely inefficient and might lead to
+the unsatisfactory of customers and providers of charging service. Therefore, it is
+important to manage the large-scale charging scheduling for improving the ser-
+vice quality of large-scale EV charging services. With this concern, an improved
+Deep Q-Network (DQN) based approach is proposed to find the optimal schedul-
+ing plan at the time of peak demand for EV charging. To obtain better global
+optimization ability and faster convergence speed, an improved noisy-dueling
+architecture which can make efficient use of experience knowledge about environ-
+ment to locate the global optimization / suboptimal is designed. The experiment
+results under a complex real city scenario showcases the advantages of our pro-
+posal in terms of well-performance on both calculation efficiency and scheduling
+efficiency.
 
 ## Notes
 
