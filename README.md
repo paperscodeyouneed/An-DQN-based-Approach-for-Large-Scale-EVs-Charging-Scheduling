@@ -3,20 +3,7 @@ This is an official implementation in Pytorch
 
 
 ## Abstract
-    The surge charging demand of large-scale electric vehicles (EVs) in the rush hour
-or open holidays poses challenges to the EV charging management system. Unrea-
-sonable EV charging scheduling plan is definitely inefficient and might lead to
-the unsatisfactory of customers and providers of charging service. Therefore, it is
-important to manage the large-scale charging scheduling for improving the ser-
-vice quality of large-scale EV charging services. With this concern, an improved
-Deep Q-Network (DQN) based approach is proposed to find the optimal schedul-
-ing plan at the time of peak demand for EV charging. To obtain better global
-optimization ability and faster convergence speed, an improved noisy-dueling
-architecture which can make efficient use of experience knowledge about environ-
-ment to locate the global optimization / suboptimal is designed. The experiment
-results under a complex real city scenario showcases the advantages of our pro-
-posal in terms of well-performance on both calculation efficiency and scheduling
-efficiency.
+    The surge charging demand of large-scale electric vehicles (EVs) in the rush hour or open holidays poses challenges to the EV charging management system. Unreasonable EV charging scheduling plan is definitely inefficient and might lead to the unsatisfactory of customers and providers of charging service. Therefore, it is important to manage the large-scale charging scheduling for improving the service quality of large-scale EV charging services. With this concern, an improved Deep Q-Network (DQN) based approach is proposed to find the optimal scheduling plan at the time of peak demand for EV charging. To obtain better global optimization ability and faster convergence speed, an improved noisy-dueling architecture which can make efficient use of experience knowledge about environment to locate the global optimization / suboptimal is designed. The experiment results under a complex real city scenario showcases the advantages of our proposal in terms of well-performance on both calculation efficiency and scheduling efficiency.
 
 ## Notes
 
