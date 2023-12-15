@@ -1,9 +1,9 @@
-# A-Noisy-Dueling-Architecture-for-Large-Scale-EV-ChargingScheduling
+# An DQN based Approach for Large-Scale EVs Charging Scheduling
 This is an official implementation in Pytorch
 
 
 ## Abstract
-    The surge charging demand of large-scale electric vehicles (EVs) in the rush hour or open holidays poses challenges to the EV charging management system. Unreasonable EV charging scheduling plan is definitely inefficient and might lead to the unsatisfactory of customers and providers of charging service. Therefore, it is important to manage the large-scale charging scheduling for improving the service quality of large-scale EV charging services. With this concern, an improved Deep Q-Network (DQN) based approach is proposed to find the optimal scheduling plan at the time of peak demand for EV charging. To obtain better global optimization ability and faster convergence speed, an improved noisy-dueling architecture which can make efficient use of experience knowledge about environment to locate the global optimization / suboptimal is designed. The experiment results under a complex real city scenario showcases the advantages of our proposal in terms of well-performance on both calculation efficiency and scheduling efficiency.
+    The surge in demand for charging large-scale electric vehicles (EVs) during rush hours or open holidays presents a substantial challenge to EV charging management. An inefficient EV charging schedule inconveniences customers and dissatisfies service providers. Therefore, it is imperative to elevate the quality of charging scheduling services as well as concurrently reducing average EV queueing times and idling durations at charging stations (CSs) in large-scale EV charging scenarios. To this end, an approach based on Deep Q-Network (DQN) technology is proposed to identify optimal scheduling plans precisely during the surge EV charging scheduling demand. This method integrates an enhanced noisy-dueling architecture, leveraging experience knowledge to efficiently locate optimal scheduling strategy. Experiments in a sophisticated urban scenario validate the efficacy of our proposal, showcasing substantial enhancements in both computational and scheduling efficiencies.
 
 ## Notes
 
